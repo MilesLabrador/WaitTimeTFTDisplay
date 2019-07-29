@@ -43,7 +43,7 @@ print('Loading image...')
 image = Image.open('cat.jpg')
 
 # Resize the image and rotate it so it's 130x129 pixels.
-image = image.rotate(0).resize((130, 129))
+image = image.rotate(0).resize((129, 130))
 
 # Draw the image on the display hardware.
 print('Drawing image')
