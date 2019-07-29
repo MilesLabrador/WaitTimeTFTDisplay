@@ -30,8 +30,8 @@ import Adafruit_GPIO.SPI as SPI
 
 
 # Constants for interacting with display registers.
-ILI9341_TFTWIDTH    = 240
-ILI9341_TFTHEIGHT   = 320
+ILI9341_TFTWIDTH    = 130
+ILI9341_TFTHEIGHT   = 129
 
 ILI9341_NOP         = 0x00
 ILI9341_SWRESET     = 0x01
